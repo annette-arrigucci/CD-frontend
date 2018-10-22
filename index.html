@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in - CodersDirectory</title>
+
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/site.min.css" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">CodersDirectory</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Home/Contact">Contact</a></li>
+                </ul>
+                
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="/Account/Register">Register</a></li>
+        <li><a href="/Account/Login">Log in</a></li>
+    </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        
+<p></p><p></p>
+<h1 class="text-center">Milspouse Coders Directory</h1>
+<h3 class="text-center">Connect today with other military spouses who code</h3>
+<h3 class="text-center"><a href="/about">About us</a></h3>
+<p></p><p></p>
+<h3>Log in</h3>
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form method="post" action="/Account/Login">
+                <h4>Use a local account to log in.</h4>
+                <hr />
+                <div class="text-danger validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input class="form-control" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" value="" />
+                    <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input class="form-control" type="password" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" />
+                    <span class="text-danger field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label for="RememberMe">
+                            <input type="checkbox" data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" value="true" />
+                            Remember me?
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default">Log in</button>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <a href="/Account/ForgotPassword">Forgot your password?</a>
+                    </p>
+                    <p>
+                        <a href="/Account/Register">Register as a new user?</a>
+                    </p>
+                </div>
+            <input name="__RequestVerificationToken" type="hidden" value="" /><input name="RememberMe" type="hidden" value="false" /></form>
+        </section>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h4>Use another service to log in.</h4>
+            <hr />
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                            for details on setting up this ASP.NET application to support logging in via external services.
+                        </p>
+                    </div>
+        </section>
+    </div>
+</div>
+
+
+        <hr />
+        <footer>
+            <p>&copy; 2018 - Annette Arrigucci</p>
+        </footer>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+    <script src="./js/site.min.js?v=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU"></script>
+    
+    
+    <script src="./lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="./lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+
+
+</body>
+</html>
